@@ -11,6 +11,7 @@
 		DACAE67A293E6B1E003A4508 /* sevenup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACAE66F293E6B1E003A4508 /* sevenup.framework */; };
 		DACAE67F293E6B1E003A4508 /* sevenupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAE67E293E6B1E003A4508 /* sevenupTests.swift */; };
 		DACAE680293E6B1E003A4508 /* sevenup.h in Headers */ = {isa = PBXBuildFile; fileRef = DACAE672293E6B1E003A4508 /* sevenup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DACAE68A293E6B3B003A4508 /* Maths.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAE689293E6B3B003A4508 /* Maths.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		DACAE673293E6B1E003A4508 /* sevenup.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = sevenup.docc; sourceTree = "<group>"; };
 		DACAE679293E6B1E003A4508 /* sevenupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sevenupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACAE67E293E6B1E003A4508 /* sevenupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sevenupTests.swift; sourceTree = "<group>"; };
+		DACAE689293E6B3B003A4508 /* Maths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maths.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				DACAE672293E6B1E003A4508 /* sevenup.h */,
 				DACAE673293E6B1E003A4508 /* sevenup.docc */,
+				DACAE689293E6B3B003A4508 /* Maths.swift */,
 			);
 			path = sevenup;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DACAE674293E6B1E003A4508 /* sevenup.docc in Sources */,
+				DACAE68A293E6B3B003A4508 /* Maths.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +354,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,6 +383,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,6 +402,7 @@
 		DACAE687293E6B1E003A4508 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J74MMTX6NT;
@@ -412,6 +419,7 @@
 		DACAE688293E6B1E003A4508 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J74MMTX6NT;

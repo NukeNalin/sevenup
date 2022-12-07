@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.homepage     = "https://nalinporwal.com"
     s.license      = "MIT"
     s.author       = "Nalin Porwal" 
-    s.source       = { :git => "https://github.com/NukeNalin/sevenup.git", :tag => "#{s.version}"} 
+    s.source       = { :git => "https://github.com/NukeNalin/sevenup.git", :branch => "main"} 
     s.ios.deployment_target = '13.0'
     s.source_files = 'sevenup/Maths.swift'
     s.swift_version = '4.1'
